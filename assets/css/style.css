@@ -1,0 +1,772 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn{
+  background-color: red;
+  padding: 14px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid red;
+}
+.btn:hover{
+  background-color: rgb(66, 64, 64);
+  cursor: pointer;
+  border: 2px solid rgb(66, 64, 64);
+}
+/* .h1 {
+  font-size: 50px;
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.h1 span{
+  color: black;
+} */
+/* global css end */
+.header-contant {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.logo {
+  margin-left: 15px;
+}
+.logo img {
+  width: 70%;
+}
+.navbar {
+  margin-left: 120px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.navbar ul li a:hover {
+  color: rgb(245, 61, 6);
+}
+.sub-menu{
+    position: absolute;
+    z-index: 1;
+    color: #3d3d3d;
+    line-height: 36px;
+    font-weight: 100;
+    padding-top: 16px;
+    display: none;
+    font-size: 14px
+}
+.navbar ul li:hover .sub-menu{
+  display: block;
+}
+.sub-menu ul{
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 18px grey;
+}
+
+.sub-menu ul li:hover{
+  color: red;
+}
+.carrer .sub-menu{
+  height: 88px;
+}
+.social-media {
+  margin-left: 50px;
+}
+
+.icon {
+  display: flex;
+  margin-left: 160px;
+}
+.media-icon {
+  background: url(../images/socialmediaicon.png);
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+  margin-right: 10px;
+  background-color: grey;
+  background-size: cover;
+}
+.facebook {
+  background-position: -263px 38px;
+}
+.youtube {
+  background-position: -233px -138px;
+}
+.linkin {
+  background-position: -290px -209px;
+}
+.twitter {
+  background-position: -1px 248px;
+}
+.media-icon:hover {
+  background-color: rgb(245, 61, 6);
+  cursor: pointer;
+}
+/* header banner section start */
+.header-banner img {
+  width: 100%;
+  position: relative;
+}
+.banner-text p {
+  color: black;
+  font-size: 30px;
+  top: 66px;
+  left: 90px;
+  position: absolute;
+  width: 150px;
+  padding-top: 260px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.banner-text::after {
+  content: "";
+  position: absolute;
+  top: 330px;
+  left: 72px;
+  background-color: red;
+  width: 5px;
+  display: inline-block;
+  height: 162px;
+ 
+}
+/* header banner section end */
+/* virtues section start */
+.virtues{
+  margin-top: 110px;
+}
+.virtues-heading h1{
+  font-size: 50px;
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 90px;
+  width: 200px;
+}
+.virtues-heading h1 span{
+  color: black;
+}
+.virtues-heading p{
+  width: 900px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+    font-size: 16px;
+}
+.virtues-card{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.v-card{
+  width: 400px;
+  height: 280px;
+  text-align: left;
+  background-color: #ffd6d6;
+  margin-right: 50px;
+  padding: 80px 30px 30px 30px;
+  border-radius: 10px;
+}
+.v-card p{
+  width: 188px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+    font-size: 16px;
+}
+.People-First{
+  background-color: #deeafc;
+}
+.Empowerment{
+  background-color: #f8e6f8;
+  margin-right: 0px;
+}
+
+.v-card h3{
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.virtues-img1 img{
+  position: absolute;
+  left: 92px;
+  top: -52px;
+}
+.virtues-img2 img{
+  position: absolute;
+  left: 494px;
+  top: -52px;
+}
+.virtues-img3 img{
+  position: absolute;
+  left: 880px;
+  top: -52px;
+}
+/* virtues section end */
+/* arrow section */
+.left-arrow{
+  position: absolute;
+  top: 1260px;
+  left: 5px;
+}
+.right-arrow{
+  position: absolute;
+  top: 1260px;
+  right:5px;
+}
+/* arrow section end */
+/* managing director section start */
+.managing-director{
+  margin-top: 90px;
+  display: flex;
+}
+.about-director{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+    padding: 20px 20px 20px 70px;
+    line-height:40px ;
+    font-weight: 500;
+}
+.managing-director-name{
+  color: red;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.post{
+  margin-top: 20px;
+}
+/* managing director section start */
+/* report section start */
+.report{
+  background-color: #e8f0f2;
+}
+.report-box{
+  padding: 50px 20px 50px 75px;
+  border-radius: 10px;
+  display: flex;
+}
+.report-heading h1{
+  font-size: 43px;
+  color: red;
+}
+.report-heading span{
+  font-size: 43px;
+  color: black;
+}
+.report-discripition p{
+  width: 620px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 170px;
+}
+.report-discripition .btn{
+  margin-top: 38px;
+  margin-left: 346px;
+}
+.report-data{
+  background-color: white;
+  width: 700px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 30px #8d7e7e;
+  border-radius: 10px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.report-data li {
+  list-style: none;
+  line-height: 35px;
+}
+.red{
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.black{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+.data-regester-date{
+  color: grey;
+  margin-left: 246px;
+  padding-bottom: 100px;
+}
+
+/* report section end*/
+/* messege position fixed */
+.message{
+  position: fixed;
+    bottom: 20px;
+    right: 37px;
+}
+.message img:hover{
+  opacity: .4;
+}
+/* messege section end */
+/* our plant section start */
+.our-plant img{
+  width: 100%;
+  position: relative; 
+}
+.our-plant-name{
+  position: relative;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  top: -35px;
+  left: 960px;
+  width: 264px;
+  border-radius: 10px;
+  padding: 6px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+/* our plant section end */
+/* map section start */
+/* map section end */
+/* our-business scetion start */
+
+.business-items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.business-item-list li{
+  list-style: none;
+  line-height: 60px;
+  font-size: 32px;
+  color: grey;
+}
+.our-business h3{
+  margin-left: 70px;
+  color: black;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+.our-business h3 span{
+  color: red;
+  margin-left: 5px;
+}
+.business-items .black{
+  color: black;
+  font-size: 40px;
+}
+/* .item-arrow{
+  position: relative;
+  top: -396px;
+  left: 515px;
+} */
+
+/* our-business scetion end */
+/* our milestone section start */
+.milestone{
+margin-top:50px;
+}
+.milestone-top{
+  display: flex;
+  justify-content: space-between;
+}
+.milestone-top .btn{
+  padding: 20px;
+}
+.milestone-heading h3{
+  color: red;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+.milestone-heading h3 span{
+  color: black;
+}
+.milestone-image img{
+  border-radius: 10px;
+}
+.milestone-contant{
+  display: flex;
+  margin-top: 40px;
+}
+.milestone-year{
+  font-size: 240px;
+  color: red;
+  padding-left: 75px;
+  font-family: 'Work Sans';
+    font-weight: bold;
+}
+.about-milestone{
+  padding: 20px 20px 10px 66px;
+  font-size: 25px;
+  font-family: 'Work Sans';
+  font-weight: bold;
+}
+/* our milestone section end */
+/* solar image section  */
+.solar-plate-image img{
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+/* solar image section end */
+/* sustainability section start */
+.Sustainability-box{
+  display: flex;
+  margin-top: 50px;
+  /* justify-content: space-between; */
+}
+.sustainability h3{
+  color: red;
+  font-size: 60px;
+  font-family:'Poppins' ;
+}
+.sustainability h3 span{
+  color: black;
+}
+.sustainability p{
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  width: 630px;
+    line-height: 23px;
+}
+.sustainability-text .btn{
+  margin: 10px 31px 10px 386px;
+}
+.sustainability-right-text{
+  font-size: 18px;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  line-height: 26px;
+  margin-top: 30px;
+  padding-left: 36px;
+}
+/* sustainability section end */
+/* source bandage section start */
+.source-bandage{
+  margin-top: 70px;
+}
+.source-bandage-card {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e8f0f2;
+  border-radius: 10px;
+}
+
+.source-bandage-image img{
+margin-bottom: 10px;
+margin-left: 13px;
+}
+.source-bandage-image {
+  padding:40px ;
+}
+.source-bandage-image p{
+     font-size: 18px;
+    text-align: center
+}
+/* source bandage section end */
+/* school girls card section start */
+.school-girls-card {
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 50px;
+  height: 622px;
+}
+.school-girls-photo img{
+  border-radius: 10px;
+}
+.about-school-girls{
+padding: 15px 15px 30px 30px;
+}
+.about-school-girls h3{
+     color: white;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-school-girls p{
+  color: white;
+  font-size: 25px;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  line-height: 36px;
+}
+.about-school-girls .btn{
+  background-color: white;
+color: red;
+margin-top: 30px;
+padding: 20px;
+}
+/* school girls card section end */
+/* small girl seection */
+.small-girl{
+  margin-top: 70px;
+}
+.small-girl img{
+  width: 100%;
+}
+/* inovaction section start */
+.inovation-color{
+  background-color: #e8f0f2;
+}
+.inovation-product{
+  display: flex;
+  padding: 50px 0px;
+ 
+}
+.bold-text p{
+  color: red;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.bold-text{
+  width: 50%;
+}
+.inovation-product-about{
+     width: 50%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Work Sans';
+    line-height: 30px;
+}
+.bold-text p span{
+  color: black;
+}
+/* inovaction section end */
+/* awards section start */
+.awards{
+  margin-top: 70px;
+}
+.awards-heading h3{
+  color: red;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.awards-heading h3 span{
+  color: black;
+}
+.awards-heading p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Work Sans';
+  line-height: 24px;
+    width: 920px;
+    margin-bottom: 30px;
+}
+.company-card{
+  border: 1px solid red;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px grey;
+  width: 250px;
+  height: 300px
+}
+.company-card img{
+  padding: 20px 50px;
+  padding-bottom: 8px;
+}
+.about-company{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 30px;
+  font-family: 'Work Sans';
+  text-align: center;
+  padding-bottom: 0px;
+  
+}
+.year{
+  font-size: 34px;
+  text-align: center;
+  font-family: 'Poppins
+}
+.award-company-card{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-2 img{
+  margin: 10px 0px 19px 0px
+
+}
+.card-3 img{
+  padding: 22px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+.card-4 img{
+  padding: 30px;
+    margin-bottom: 12px;
+}
+.award-company-card .company-card .right-png{
+  width: auto; 
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+.award-company-card .card-3 .right-png{
+  margin-top: 0px;
+}
+/*awards section end */
+/* investor room section start */
+.investor-room{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-investor-room{
+  margin-left: 40px;
+}
+.about-investor-room h3{
+  color: red;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.about-investor-room h3 span{
+  color: black; 
+}
+.about-investor-room p{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Work Sans';
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+/* investor room section end */
+/* contact section start */
+.contact{
+  display: flex;
+  margin-top: 60px;
+}
+.contact-us h3{
+  color: red;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.contact-us h3 span {
+  color: black;
+}
+.contact-us{
+  width: 40%;
+}
+
+.contact-card{
+  display: flex;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Work Sans';
+  line-height: 30px;
+}
+.contact-card img{
+  margin-right: 14px; 
+}
+.address img{
+  margin-bottom: 75px
+}
+.contact-form{
+  background-color: #e8f0f2;
+  border-radius: 10px;
+  margin-left: 70px;
+  padding: 30px;
+  width:60% ;
+}
+.contact-form select,.contact-form input,.contact-form textarea{
+  outline: none;
+  background: none;
+  appearance: none;
+  width: 100%;
+}
+.contact-form textarea{
+  border: none;
+}
+.form-list{
+  border-bottom: 2px solid grey;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.form-list-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px
+}
+.form-data{
+  font-size: 16px;
+  border: none;
+}
+/* contact section end */
+/* footer section start */
+.footer{
+  background-color: #3d3d3d;
+  padding: 40px 70px;
+  color: white;
+  font-family: 'Work Sans';
+  margin-top: 40px;
+}
+.footer-data{
+  display: flex;
+  justify-content: space-between;
+}
+.footer li{
+  list-style: none;
+}
+.footer li a{
+  text-decoration: none;
+  color: white;
+  line-height: 35px;
+}
+.footer li a:hover{
+  color: red;
+}
+.footer-bold-text{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-careers{
+  margin-top: 40px;
+}
+.footer-brochure p{
+  text-align: center;
+}
+.footer-brochure .btn{
+  margin-top: 20px;
+}
+.footer-links{
+  margin-top:60px;
+  display: flex;
+  justify-content: space-between;
+      border-top: 1px solid white;
+    padding-top: 20px;
+}
+.footer-social-media{
+  display: flex;
+}
+/* footer section end */
